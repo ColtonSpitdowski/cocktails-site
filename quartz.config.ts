@@ -10,7 +10,7 @@ const config: QuartzConfig = {
       provider: "plausible",
     },
     baseUrl: "coltonspitdowski.github.io/cocktails-site",
-    ignorePatterns: ["private", "templates", ".obsidian"],
+    ignorePatterns: ["private", "Templates", ".obsidian", "README.md"],
     defaultDateType: "created",
     theme: {
       typography: {
